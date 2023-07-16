@@ -7,8 +7,8 @@ use std::{error::Error, fmt::Display};
 ///
 /// let b_emoji = B::try_from("🅱️");
 /// match b_emoji {
-///    Ok(b) => println!("success! {}", b),
-///   Err(e) => println!("error! {}", e),
+///     Ok(b) => println!("success! {}", b),
+///     Err(e) => println!("error! {}", e),
 /// }
 /// ```
 #[derive(Clone, PartialEq, Eq, Hash, Debug)]
