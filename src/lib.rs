@@ -58,7 +58,7 @@ impl Display for B {
 
 impl TryFrom<&str> for B {
     type Error = BError;
-    /// Converts a string slice to a [`B`]. Returns a [`BError`] if the string is not a valid 🅱️ string representation.
+    /// Converts a string slice to a [`enum@B`]. Returns a [`BError`] if the string is not a valid 🅱️ string representation.
     /// ```rust
     /// use b_ext::B;
     ///
@@ -79,7 +79,7 @@ impl TryFrom<&str> for B {
 
 impl TryFrom<char> for B {
     type Error = BError;
-    /// Converts a [`char`] to a [`B`]. Returns a [`BError`] if the char is not a valid 🅱️ string representation.
+    /// Converts a [`char`] to a [`enum@B`]. Returns a [`BError`] if the char is not a valid 🅱️ string representation.
     /// ```rust
     /// use b_ext::B;
     ///
@@ -99,7 +99,7 @@ impl TryFrom<char> for B {
 
 impl TryFrom<&String> for B {
     type Error = BError;
-    /// Converts a [`String`] reference to a [`B`]. Returns a [`BError`] if the string is not a valid 🅱️ string representation.
+    /// Converts a [`String`] reference to a [`enum@B`]. Returns a [`BError`] if the string is not a valid 🅱️ string representation.
     /// ```rust
     /// use b_ext::B;
     ///
