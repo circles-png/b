@@ -54,6 +54,13 @@ impl TryFrom<char> for B {
     }
 }
 
+impl TryFrom<&String> for B {
+    type Error = BError;
+    fn try_from(value: &String) -> Result<Self, Self::Error> {
+        B::try_from(value.as_str())
+    }
+}
+
 impl FromStr for B {
     type Err = BError;
     fn from_str(s: &str) -> Result<Self, Self::Err> {
