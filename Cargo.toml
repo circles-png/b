@@ -8,3 +8,4 @@ description = "`b`, now with more features"
 
 [dependencies]
 b = "0.2.0"
+serde = { version = "1.0.171", optional = true, features = ["derive"] }
