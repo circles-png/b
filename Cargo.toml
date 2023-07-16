@@ -1,8 +1,15 @@
 [package]
+authors = ["circles-png"]
 name = "b-ext"
 version = "0.1.0"
 edition = "2021"
 description = "`b`, now with more features"
+license = "MIT"
+repository = "https://github.com/circles-png/b"
+readme = "README.md"
+keywords = ["b", "b-ext"]
+categories = ["b", "b-ext"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
